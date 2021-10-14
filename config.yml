@@ -5,10 +5,10 @@ engine:                      # engine settings
   dir: "./engines/"          # dir containing engines, relative to this project
   name: "sf"        # binary name of the engine to use
   variantname: "vsf"
-  protocol: "uci"            # "uci" or "xboard"
+   protocol: "uci"            # "uci" or "xboard"
   ponder: false               # Think on opponent's time.
   polyglot:
-    enabled: true           # Activate polyglot book.
+    enabled: false           # Activate polyglot book.
     book:
       standard:              # List of book file paths for variant standard.
         - Goi5.1.bin
